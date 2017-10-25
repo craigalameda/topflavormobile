@@ -1,0 +1,195 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*end of meyer's reset*/
+/*START OF FONT CSS*/
+h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 900;
+}
+
+h3{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+}
+
+/*END OF FONT CSS*/
+/*START OF NAV*/
+
+/*END OF NAV*/
+
+/*START OF BOX GENERAL*/
+.gen-box{
+	margin: 5px;
+	width: 340px;
+}
+
+button.accordion {
+    background-color: #f26f23;
+    color: #99431d;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+		height: 90px
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #f26f23;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #99431d;
+    font-weight: bold;
+    float: right;
+    margin: 5px;
+		position:absolute;
+    bottom:5px;
+    right:10px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+.y {
+	font-size: 80px;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+.col-md-4{
+	padding: 0px;
+}
+
+.district-title{
+	border-style: solid;
+  border-width: 0px;
+  border-left-width: 2px;
+  padding-top: 0px;
+	height: 70px;
+	margin: 4px 0px 4px 0px;
+
+}
+
+.city{
+	font-size: 20px;
+	margin: 5px 0px 5px 0px;
+}
+
+.county{
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+		border-radius: 0px;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.action{
+	text-decoration: none;
+	background-color: white;
+}
+
+.drop-down{
+	height: 90px;
+	background: linear-gradient(#f9bd9b, #f9c6ac);
+}
+
+.drop-down:hover{
+	background: #f9c6ac;
+}
+
+.icon{
+	color: #f26f23;
+	font-size: 70px;
+	padding-left: 10px;
+	margin: 10px 9px 0px 0px;
+}
+
+.icon-title{
+	border-style: solid;
+	border-color: #f26f23;
+  border-width: 0px;
+  border-left-width: 2px;
+  padding-top: 0px;
+	height: 70px;
+	margin: 10px 0px 4px 0px;
+}
+
+.drop-down h2{
+	font-size: 15px;
+	padding-top: 15%;
+	color: #f26f23;
+}
+
+
+.drop-down h3{
+	font-size: 15px;
+	color: #f26f23;
+}
+/*END OF BOX GENERAL*/
